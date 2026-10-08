@@ -1,0 +1,31 @@
+{
+  "name": "introduction-to-backend",
+  "version": "1.0.0",
+  "description": "a tutorial for intro to backend",
+  "homepage": "https://github.com/psal-code/Introduction-to-Backend#readme",
+  "bugs": {
+    "url": "https://github.com/psal-code/Introduction-to-Backend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psal-code/Introduction-to-Backend.git"
+  },
+  "license": "ISC",
+  "author": "Big Psalm",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node Backend/src/index.js",
+    "dev": "nodemon Backend/src/index.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "dotenv": "^18.0.5",
+    "express": "^5.2.1",
+    "mongoose": "^9.11.0",
+    "nodemon": "^1.14.10"
+  },
+  "allowScripts": {
+    "bcrypt@6.0.0": true
+  }
+}
